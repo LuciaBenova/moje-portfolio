@@ -3,136 +3,477 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lucia Beňová | Portfólio</title>
+
+  <meta
+    name="description"
+    content="Portfólio Lucie Beňovej – študentky aplikovanej informatiky a absolventky grafického dizajnu."
+  >
+
+  <title>Lucia Beňová | IT a grafické portfólio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<header class="hero">
-  <h1>Lucia Beňová</h1>
-  <p>Grafická dizajnérka & študentka informatiky</p>
-  <p> GitHub:<a href="https://github.com/LuciaBenova" target="_blank"> github.com/LuciaBenova </a></p>
-</header>
+  <header class="hero" id="uvod">
+    <nav class="navigation">
+      <a class="logo" href="#uvod">Lucia Beňová</a>
 
-<main>
-
-  <section>
-    <h2>O mne</h2>
-    <p>
-      Vyštudovala som grafický dizajn a momentálne študujem informatiku.
-      Spájam vizuálny dizajn so softvérovým vývojom a tvorbou používateľsky prívetivých aplikácií.
-    </p>
-  </section>
-
-  <section>
-    <h2>Animácie</h2>
-
-    <div class="cards two-columns">
-      <div class="card">
-        <h3>Deň D</h3>
-        <p>Krátky animovaný film.</p>
-        <video controls>
-          <source src="videos/Animácia_Beňová.mp4" type="video/mp4">
-        </video>
+      <div class="navigation-links">
+        <a href="#o-mne">O mne</a>
+        <a href="#it-projekty">IT projekty</a>
+        <a href="#technologie">Technológie</a>
+        <a href="#grafika">Grafika</a>
+        <a href="#kontakt">Kontakt</a>
       </div>
-      
-      <div class="card">
-        <h3>Záchrana Zeme</h3>
-        <p>Animovaná krajinka.</p>
-        <video controls>
-          <source src="videos/Animacia_Animovanakrajinka_Beňová.mp4" type="video/mp4">
-        </video>
-      </div>
+    </nav>
 
-      <div class="card">
-        <h3>Minca nešťastia</h3>
-         <p>Krátky animovaný film, ktorý si môžete pozrieť na YouTube.</p>
-         <a href="https://youtu.be/_mD5y4DeIMQ?si=OGEFkWXxjBsJODDe" target="_blank">▶ Pozrieť film</a>
-     </div>
-      
-    </div>
-  </section>
+    <div class="hero-content">
+      <p class="hero-label">
+        SOFTWARE DEVELOPMENT · WEB · DIZAJN
+      </p>
 
-  <section>
-    <h2>Ilustrácie</h2>
+      <h1>
+        Prepájam technológie,
+        <span>dizajn a funkčnosť.</span>
+      </h1>
 
-    <div class="illustrations-top">
-      <img src="img/1.jpg" alt="Ilustrácia 1">
-      <img src="img/2.jpg" alt="Ilustrácia 2">
-      <img src="img/3.jpg" alt="Ilustrácia 3">
-    </div>
+      <p class="hero-text">
+        Som študentka aplikovanej informatiky so zameraním na vývoj softvéru
+        a absolventka grafického dizajnu. Počas štúdia som pracovala
+        s webovými technológiami, backendom, databázami,
+        programovaním v rôznych jazykoch a vývojom hier.
+      </p>
 
-    <div class="characters">
-      <img src="img/Postavičky_Beňová.jpg" alt="Postavičky">
-    </div>
+      <div class="hero-buttons">
+        <a class="button button-primary" href="#it-projekty">
+          Pozrieť IT projekty
+        </a>
 
-  </section>
-
-  <section>
-    <h2>Logá a vizuálna identita</h2>
-
-    <div class="cards two-columns">
-      <div class="card">
-        <h3>Logotypy</h3>
-        <p>Návrh logotypu a vizuálnej identity.</p>
-        <a href="img/Logotyp_Beňová.pdf" target="_blank">Logotyp PDF</a>
-        <a href="img/logo_1.1._Beňová.pdf" target="_blank">Logo 1.1 PDF</a>
-      </div>
-
-      <div class="card">
-        <h3>Dizajn manuál</h3>
-        <p>Grafický manuál značky.</p>
-        <a href="img/Dizajn manuál_Beňová.pdf" target="_blank">Dizajn manuál PDF</a>
+        <a
+          class="button button-secondary"
+          href="https://github.com/LuciaBenova"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
       </div>
     </div>
-  </section>
+  </header>
 
-  <section>
-    <h2>3D práce</h2>
+  <main>
 
-    <div class="cards two-columns">
-      <div class="card">
-        <h3>3D logo</h3>
-        <video controls>
-          <source src="videos/3D_logo_%20Beňová.mp4" type="video/mp4">
-        </video>
+    <section class="section about" id="o-mne">
+      <div class="section-heading">
+        <p class="section-number">01</p>
+        <h2>O mne</h2>
       </div>
 
-      <div class="card">
-        <h3>3D postava</h3>
-        <video controls>
-          <source src="videos/3D_postava_Beňová.mp4" type="video/mp4">
-        </video>
+      <div class="about-content">
+        <p>
+          Vyštudovala som grafický dizajn a momentálne študujem
+          aplikovanú informatiku so zameraním na vývoj softvéru.
+          Vo svojej práci prepájam technické znalosti s citom
+          pre typografiu, kompozíciu a používateľsky prívetivé riešenia.
+        </p>
+
+        <p>
+          Počas štúdia som pracovala s frontendovými aj backendovými
+          technológiami, relačnými a dokumentovými databázami,
+          programovaním v rôznych jazykoch a tvorbou hier v Unity.
+          Hľadám príležitosť, pri ktorej môžem svoje znalosti ďalej rozvíjať
+          a získavať praktické skúsenosti.
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section>
-    <h2>Programátorské projekty</h2>
-
-    <div class="cards two-columns">
-      <div class="card">
-       <h3>Buchtošové svetielko nádeje</h3>
-       <p>Webová aplikácia pre správu útulku a adopciu zvierat.</p>
-       <p><strong>Technológie:</strong> Angular, Spring Boot, PostgreSQL, JWT</p>
-       <a href="https://github.com/LuciaBenova/buchtosove-svetielko-nadeje-frontend" target="_blank"> Zobraziť na GitHube Frontend (Angular)</a>
-        <a href="https://github.com/LuciaBenova/buchtosove-svetielko-nadeje-backend" target="_blank"> Zobraziť na GitHube Backend (Spring Boot)</a>
+    <section class="section" id="it-projekty">
+      <div class="section-heading">
+        <p class="section-number">02</p>
+        <h2>Softvérové projekty</h2>
       </div>
 
-      <div class="card">
-       <h3>Žiacka knižka</h3>
-       <p>Aplikácia na správu známok a používateľov.</p>
-       <p><strong>Technológie:</strong> Node.js, Express, MariaDB, Docker</p>
-       <a href="https://github.com/LuciaBenova/ziacka-knizka"target="_blank">Zobraziť na GitHube</a>
-     </div>
-    </div>
-  </section>
+      <div class="projects-grid">
 
-</main>
+        <article class="project-card project-card-large">
+          <div class="project-content">
+            <p class="project-category">Full-stack webová aplikácia</p>
 
-<footer>
-  <p>Kontakt: lucka.benova33@gmail.com</p>
-</footer>
+            <h3>Buchtošové svetielko nádeje</h3>
+
+            <p>
+              Webová aplikácia pre správu útulku a adopciu zvierat.
+              Projekt zahŕňa používateľské rozhranie, backendovú logiku,
+              autentifikáciu používateľov a prepojenie s databázou.
+            </p>
+
+            <p class="project-technologies">
+              Angular · TypeScript · Java · Spring Boot · PostgreSQL · JWT
+            </p>
+
+            <div class="project-links">
+              <a
+                class="project-link"
+                href="https://github.com/LuciaBenova/buchtosove-svetielko-nadeje-frontend"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Frontend →
+              </a>
+
+              <a
+                class="project-link"
+                href="https://github.com/LuciaBenova/buchtosove-svetielko-nadeje-backend"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Backend →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <p class="project-category">Webová aplikácia</p>
+
+            <h3>Žiacka knižka</h3>
+
+            <p>
+              Aplikácia na správu používateľov, predmetov a školských známok.
+              Projekt zahŕňa serverovú časť, REST API, prácu s databázou
+              a spustenie aplikácie pomocou Dockeru.
+            </p>
+
+            <p class="project-technologies">
+              Node.js · Express · MariaDB · Docker
+            </p>
+
+            <a
+              class="project-link"
+              href="https://github.com/LuciaBenova/ziacka-knizka"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Zobraziť na GitHube →
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card project-card-accent">
+          <div class="project-content">
+            <p class="project-category">GitHub profil</p>
+
+            <h3>Ďalšie práce</h3>
+
+            <p>
+              Ďalšie zadania a ukážky práce
+              s rôznymi technológiami nájdete na mojom GitHub profile.
+            </p>
+
+            <a
+              class="project-link"
+              href="https://github.com/LuciaBenova"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Otvoriť GitHub →
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="technologie">
+      <div class="section-heading">
+        <p class="section-number">03</p>
+        <h2>Technológie a nástroje</h2>
+      </div>
+
+      <p class="section-intro">
+        Technológie, s ktorými som pracovala počas štúdia,
+        školských zadaní a vlastných projektov.
+      </p>
+
+      <div class="skills-groups">
+
+        <div class="skills-group">
+          <h3>Programovanie a web</h3>
+
+          <div class="skills">
+            <span>Java</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>Python</span>
+            <span>C</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Frameworky a backend</h3>
+
+          <div class="skills">
+            <span>Angular</span>
+            <span>React</span>
+            <span>Spring Boot</span>
+            <span>Node.js</span>
+            <span>Express</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Databázy</h3>
+
+          <div class="skills">
+            <span>PostgreSQL</span>
+            <span>MariaDB</span>
+            <span>MySQL</span>
+            <span>MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Vývoj hier a 3D</h3>
+
+          <div class="skills">
+            <span>Unity</span>
+            <span>Unreal Engine</span>
+            <span>Blender</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Nástroje</h3>
+
+          <div class="skills">
+            <span>Git</span>
+            <span>Docker</span>
+            <span>Postman</span>
+            <span>Figma</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Grafické programy</h3>
+
+          <div class="skills">
+            <span>Adobe Photoshop</span>
+            <span>Adobe Illustrator</span>
+            <span>Adobe Animate</span>
+            <span>Adobe Premiere Pro</span>
+            <span>Adobe After Effects</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="grafika">
+      <div class="section-heading">
+        <p class="section-number">04</p>
+        <h2>Vybraná grafická tvorba</h2>
+      </div>
+
+      <p class="section-intro">
+        Ako absolventka grafického dizajnu sa venujem aj vizuálnej identite,
+        ilustrácii, animácii, 3D tvorbe...
+      </p>
+
+      <div class="graphics-grid">
+
+        <article class="graphic-card">
+          <div>
+            <p class="project-category">Vizuálna identita</p>
+            <h3>Logotypy a dizajn manuál</h3>
+
+            <p>
+              Návrhy logotypov, pravidiel značky a vizuálneho systému.
+            </p>
+          </div>
+
+          <div class="project-links">
+            <a
+              class="project-link"
+              href="pdf/logotyp_benova.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Logotyp 1 →
+            </a>
+
+            <a
+              class="project-link"
+              href="pdf/logo_1.1._benova.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Logotyp 2 →
+            </a>
+
+            <a
+              class="project-link"
+              href="pdf/dizajn_manual_benova.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Dizajn manuál →
+            </a>
+          </div>
+        </article>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/1.jpg"
+              alt="Autorská ilustrácia Lucie Beňovej"
+            >
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/2.jpg"
+              alt="Autorská ilustrácia Lucie Beňovej"
+            >
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/3.jpg"
+              alt="Autorská ilustrácia Lucie Beňovej"
+            >
+          </figure>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="section-number">05</p>
+        <h2>Animácie a 3D</h2>
+      </div>
+
+      <div class="video-grid">
+
+        <article class="video-card">
+          <video controls preload="metadata">
+            <source
+              src="videos/animacia_animovanakrajinka_benova.mp4"
+              type="video/mp4"
+            >
+            Váš prehliadač nepodporuje prehrávanie videa.
+          </video>
+
+          <div class="video-description">
+            <p class="project-category">Animácia</p>
+            <h3>Záchrana Zeme</h3>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <video controls preload="metadata">
+            <source
+              src="videos/3d_logo_benova.mp4"
+              type="video/mp4"
+            >
+            Váš prehliadač nepodporuje prehrávanie videa.
+          </video>
+
+          <div class="video-description">
+            <p class="project-category">3D</p>
+            <h3>3D logo</h3>
+          </div>
+        </article>
+
+      </div>
+
+      <details class="more-work">
+        <summary>Zobraziť ďalšie práce</summary>
+
+        <div class="video-grid more-work-grid">
+
+          <article class="video-card">
+            <video controls preload="metadata">
+              <source
+                src="videos/animovany_film_benova.mp4"
+                type="video/mp4"
+              >
+              Váš prehliadač nepodporuje prehrávanie videa.
+            </video>
+
+            <div class="video-description">
+              <p class="project-category">Animácia</p>
+              <h3>Deň D</h3>
+            </div>
+          </article>
+
+          <article class="video-card">
+            <video controls preload="metadata">
+              <source
+                src="videos/3d_postava_benova.mp4"
+                type="video/mp4"
+              >
+              Váš prehliadač nepodporuje prehrávanie videa.
+            </video>
+
+            <div class="video-description">
+              <p class="project-category">3D</p>
+              <h3>3D postava</h3>
+            </div>
+          </article>
+
+        </div>
+      </details>
+    </section>
+
+    <section class="contact section" id="kontakt">
+      <p class="contact-label">KONTAKT</p>
+
+      <h2>Máte záujem o spoluprácu?</h2>
+
+      <p>
+        Rada sa zapojím do IT projektu, odbornej praxe
+        alebo grafickej spolupráce.
+      </p>
+
+      <div class="contact-buttons">
+        <a
+          class="button button-light"
+          href="mailto:lucka.benova33@gmail.com"
+        >
+          lucka.benova33@gmail.com
+        </a>
+
+        <a
+          class="button button-outline-light"
+          href="https://github.com/LuciaBenova"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Lucia Beňová</p>
+    <a href="#uvod">Späť hore ↑</a>
+  </footer>
 
 </body>
 </html>
